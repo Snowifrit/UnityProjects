@@ -1,7 +1,7 @@
 Pour faire "runner" les jeux:
 
 - Télécharger un fichier de jeu incluant un Chrome HTML Document et un .unity3d
-- Exécuter le fichier HTML
+- Exécuter le fichier HTML, avec le .unity3d dans le même dossier
 - Activer les plug-ins si nécessaire
 
 Notes:
@@ -22,7 +22,14 @@ Space Shooter:
 à la vague pour se familiariser avec l'ensemble du code.
 - Un GUIText a été ajouté pour expliquer à l'utilisateur qu'il doit attendre
 que la vague finisse pour pouvoir commencer une nouvelle partie.
+- Un GUIText pour indiquer à quel vague l'utilisateur a perdu et quel est
+son score final
 
 Survival shooter:
 
- 
+- Aucune implémentation supplémentaire 
+- Cependant, problème avec l'exportation du jeu:
+	- Les icônes de coeur et la slider bar s'affichent incorrectement
+	- Le score de s'affiche pas dans toutes les scènes
+	- Le UI Text Game Over ne s'affiche pas lors de l'écran bleu
+- Note: Toutes ces implémentations marchent sur Unity3D sur mon ordinateur.
